@@ -1,0 +1,96 @@
+﻿.waf-theme.default .waf-combobox2 {
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(bottom, #f3f2f4 0%, #f4f4f5 50%, #ffffff 50%);
+  background-image: linear-gradient(to top, #f3f2f4 0%, #f4f4f5 50%, #ffffff 50%);
+  box-shadow: inset 0 0 0 1px white, 1px 1px 3px rgba(0, 0, 0, 0.15);
+  text-shadow: #fff 1px 1px;
+  color: #1a1818;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: always;
+}
+.waf-theme.default .waf-combobox2 input {
+  appearance: none;
+  border: none;
+  border-right: 1px solid #999;
+  background-color: transparent;
+  padding-left: 10px;
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: calc(100% - 2rem);
+  cursor: auto !important;
+  float: left;
+}
+.waf-theme.default .waf-combobox2 button {
+  float: right;
+  background-color: transparent;
+  border: 0;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  width: 2rem;
+  cursor: pointer !important;
+  outline: none;
+}
+.waf-theme.default .waf-combobox2 button:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: black;
+  border-bottom: 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+}
+.waf-theme.default .waf-combobox2 .waf-combobox2-part-list {
+  display: none;
+  top: 0;
+  width: 100%;
+  /* width: calc(100% - 2rem); */
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: #fff;
+  text-shadow: #fff 1px 1px;
+  color: #1a1818;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: always;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.waf-theme.default .waf-combobox2 .waf-combobox2-part-list li {
+  padding: 0.5rem 1rem;
+  cursor: pointer !important;
+  border: none;
+  line-height: 1.5rem;
+}
+.waf-theme.default .waf-combobox2 .waf-combobox2-part-list li:hover {
+  background-color: #999;
+  color: white;
+  text-shadow: none;
+}
+.waf-theme.default .waf-combobox2.waf-state-hover {
+  border: 1px solid #009fc7;
+  background-image: -webkit-linear-gradient(bottom, #ccfafc 0%, #ccfafc 50%, #ffffff 50%);
+  background-image: linear-gradient(to top, #ccfafc 0%, #ccfafc 50%, #ffffff 50%);
+}
+.waf-theme.default .waf-combobox2.waf-state-hover input {
+  border-right: 1px solid #009fc7;
+}
+.waf-theme.default .waf-combobox2.waf-state-active {
+  border: 1px solid #00748c;
+  background-image: -webkit-linear-gradient(bottom, #009fc7 68%, #00748c 100%);
+  background-image: linear-gradient(to top, #009fc7 68%, #00748c 100%);
+  box-shadow: none;
+}
+.waf-theme.default .waf-combobox2.waf-state-active input {
+  border-right: 1px solid #00748c;
+  color: white;
+  text-shadow: #4a402c 1px 1px;
+}
+.waf-theme.default .waf-combobox2.waf-state-active button:before {
+  border-top-color: white;
+}

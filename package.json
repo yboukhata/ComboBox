@@ -1,0 +1,29 @@
+{
+    "name": "ComboBox",
+    "studioName": "ComboBox",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget-combobox.png",
+    "author": "4D SAS",
+    "contributors": [
+        "Yassine BOUKHATA",
+        "Sébastien Lombard"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 4D SAS",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wakanda/ComboBox.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 10"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "TextInput/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Button/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "wListView/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "ComboBox/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "ComboBox/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "ComboBox/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}

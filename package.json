@@ -17,6 +17,7 @@
     "keywords": ["wakanda", "widget"],
     "engines": {"wakanda": ">= 10"},
     "license": "MIT",
+    "studioPlatform": ["desktop"],
     "loadDependencies": [
         {"id": "Widget_V2"},
         {"id": "TextInput/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
